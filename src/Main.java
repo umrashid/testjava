@@ -1,5 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        short testShort = 1;
+        long testLong = testShort;
+        System.out.println(testShort);
+        System.out.println(testLong);
+
     }
 }
